@@ -1,0 +1,175 @@
+.background{
+  background-color: #371979;
+}
+
+.img-fluid{
+  width: 250px;
+}
+
+.aboutme-title{
+  margin-bottom: 35px;
+  font-size: 35px;
+  color: #c44659;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+  text-align: left;
+  font-size: 18px;
+  color: #E9E9E9;
+  margin-bottom: 15px;
+}
+
+.emilia{
+  text-align: left;
+  margin-bottom: 25px;
+  color: #E9E9E9;
+} 
+
+.resume svg{
+  font-size: 40px;
+  color: #1E0354;
+  margin-left: -90%;
+}
+
+.resume svg:hover{
+  transform: scale(1.5); 
+  color: #371979;
+}
+
+.knowMe{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.info{
+  background-color: #C7389F;
+  height: 100%;
+  width: 100%;
+}
+
+.skills-title{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 45px;
+  color: #c44659;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-containers{
+  width: 100%;
+  height: 100%;
+}
+
+.myCard {
+  background-color: transparent;
+  width: 280px;
+  height: 350px;
+  perspective: 1000px;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  
+}
+
+.myCard:hover .innerCard {
+  transform: rotateY(-180deg);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.backSide p{
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #1E0354;
+}
+
+.innerCard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.frontSide,
+.backSide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  border-radius: 50% 20% / 10% 15%;  
+  color: #1E0354;
+}
+
+.frontSide,
+.frontSide::before {
+  background: #C7389F;
+}
+
+.backSide,
+.backSide::before {
+  background: #E9E9E9;
+}
+
+.backSide {
+  transform: rotateY(180deg);
+}
+
+.frontSide::before,
+.backSide::before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50% 20% / 10% 15%;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 576px) { 
+  .info{
+    height: 80%;
+    width: 60%;
+  }
+}
+  
+@media (max-width: 768px) { 
+  .myCard{
+    margin-left: 15px;
+  }
+  
+}
+
+@media (max-width: 992px){
+  .myCard{
+    margin-left: 2px;
+  }
+}
