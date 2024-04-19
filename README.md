@@ -58,13 +58,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots 
 
-<img alt="About" src="">
+<img alt="Home" src="src/images/home.png">
 
-<img alt="Portfolio" src="">
+<img alt="About1" src="src/images/about1.png">
 
-<img alt="Resume" src="">
+<img alt="About2" src="src/images/about2.png">
 
-<img alt="Contact" src="">
+<img alt="Projects" src="src/images/projects.png">
+
+<img alt="Contact" src="src/images/contact.png">
 
 ## Deployed Application
 
