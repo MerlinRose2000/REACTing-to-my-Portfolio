@@ -70,7 +70,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployed Application
 
-<a href="">REACTing to my Portfolio</a>
+<a href="https://emilias-portfolio.netlify.app/">REACTing to my Portfolio</a>
 
 ## License
 
