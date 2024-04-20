@@ -4,14 +4,15 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Screenshots](#screenshots)
+* [Video Link](#video-link)
 * [Deployed Application](#deployed-application)
 * [License](#license)
 
-## Description 
+## [Description](#table-of-contents) 
 
 A quick and easy way for future employers to get to know potential job candidates.
 
-## Installation 
+## [Installation](#table-of-contents) 
 
 1. Clone the repository from GitHub
 2. Install `node.js`
@@ -56,7 +57,7 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 ```
 
-## Screenshots 
+## [Screenshots](#table-of-contents) 
 
 <img alt="Home" src="src/images/home.png">
 
@@ -68,10 +69,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 <img alt="Contact" src="src/images/contact.png">
 
-## Deployed Application
+## [Video Link](#table-of-contents)
+
+<a href="https://drive.google.com/file/d/1chTNOGOvesTBtQv7DMeJyiCqceu1YhkJ/view?usp=sharing">Portfolio</a>
+
+## [Deployed Application](#table-of-contents)
 
 <a href="https://emilias-portfolio.netlify.app/">REACTing to my Portfolio</a>
 
-## License
+## [License](#table-of-contents)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
