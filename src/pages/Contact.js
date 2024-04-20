@@ -3,7 +3,8 @@ import Form from 'react-bootstrap/Form';
 import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
-import "../styles/contact.css"
+import Flower from '@mui/icons-material/LocalFlorist.js';
+import "../styles/contact.css";
 
 
 const Contact = () => {
@@ -33,6 +34,15 @@ const Contact = () => {
               <h2 className="contact-info"> Moncton, NB </h2>
               <h2 className="contact-info" href="mailto://em-rstewart@hotmail.com"> em-rstewart@hotmail.com </h2>
               <h2 className="contact-info" href="callto://+1.506.251.2712"> +1 (506) 251-2712 </h2>
+                <div className='socialMedia'>
+                <Flower />
+                <Flower />
+                <Flower />
+                <Flower />
+                <Flower /> 
+                <Flower />
+                <Flower />
+              </div>
             </Col> 
 
             <Col md={6}> 

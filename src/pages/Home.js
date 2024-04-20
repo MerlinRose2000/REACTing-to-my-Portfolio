@@ -23,6 +23,11 @@ const Home = () => {
 							<Flower />
 							<Flower />
 							<Flower />
+							<Flower /> <br />
+							<Flower />
+							<Flower />
+							<Flower />
+							<Flower />
 							<Flower />
 							<Flower /> <br />
 							<Flower />
@@ -35,7 +40,7 @@ const Home = () => {
 						</div>
 						<br />
 						<h1>Emilia Stewart</h1>
-
+						<br />
 						<div className="socialMedia"> 
 							<Flower />
 							<Flower />
@@ -45,6 +50,11 @@ const Home = () => {
 							<Flower />
 							<Flower /> <br />
 							<Flower />
+							<Flower />
+							<Flower />
+							<Flower />
+							<Flower />
+							<Flower /> <br />
 							<Flower />
 							<Flower />
 							<Flower />
